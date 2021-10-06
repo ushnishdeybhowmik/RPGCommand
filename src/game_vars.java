@@ -2,8 +2,10 @@ public interface game_vars {
 
     //SQL CONNECTION
     String URL = "jdbc:mysql://localhost:3306/hoshi_saga";
+    
+    //SQL USERNAME AND PASSWORD
     String username = "root";
-    String password = "delta#123";
+    String password = "password";
 
     //TITLE DECORATION
     String title = "\n\n\n             ██╗░░██╗░█████╗░░██████╗██╗░░██╗██╗        ░██████╗░█████╗░░██████╗░░█████╗░             \n" +
